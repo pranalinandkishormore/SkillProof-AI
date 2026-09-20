@@ -1,3 +1,5 @@
+
+import Quiz from "./Quiz";
 import React from 'react';
 import StudentDashboard from './StudentDashboard';
 
