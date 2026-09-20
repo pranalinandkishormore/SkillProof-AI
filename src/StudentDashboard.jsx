@@ -16,7 +16,7 @@ export default function StudentDashboard() {
   ];
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/roles')
+    fetch('https://skillproof-ai-1.onrender.com/api/roles')
       .then(res => res.json())
       .then(data => setRoles(data))
       .catch(() => {
@@ -54,7 +54,7 @@ export default function StudentDashboard() {
 
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:5000/api/analyze', {
+      const response = await fetch('https://skillproof-ai-1.onrender.com/api/analyze', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
