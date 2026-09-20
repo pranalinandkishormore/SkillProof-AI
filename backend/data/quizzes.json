@@ -1,0 +1,10 @@
+{
+  "JavaScript": [
+    { "question": "What does '===' check?", "options": ["Value only", "Value and type", "Type only", "Nothing"], "correctIndex": 1 },
+    { "question": "Which keyword declares a constant?", "options": ["var", "let", "const", "define"], "correctIndex": 2 }
+  ],
+  "Python": [
+    { "question": "Which symbol starts a comment in Python?", "options": ["//", "#", "/*", "--"], "correctIndex": 1 },
+    { "question": "What does 'len()' do?", "options": ["Adds items", "Returns length", "Deletes items", "Sorts items"], "correctIndex": 1 }
+  ]
+}

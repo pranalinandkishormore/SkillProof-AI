@@ -6,6 +6,7 @@ app.use(cors());
 app.use(express.json());
 
 const roles = require('./data/roles.json');
+const quizzes = require('./data/quizzes.json');
 
 function analyzeSkills(role, userSkills) {
   const requiredSkills = roles[role];
@@ -45,6 +46,23 @@ app.post('/api/analyze', (req, res) => {
   }));
 
   res.json({ ...result, evidenceLinks: validatedLinks });
+});
+
+app.post('/api/evaluate-quiz', (req, res) => {
+  const { skill, answers } = req.body;
+  const questions = quizzes[skill];
+
+  if (!questions) {
+    return res.status(400).json({ error: "No quiz found for this skill" });
+  }
+
+  let score = 0;
+  questions.forEach((q, i) => {
+    if (answers[i] === q.correctIndex) score++;
+  });
+
+  const percentage = Math.round((score / questions.length) * 100);
+  res.json({ score, total: questions.length, percentage });
 });
 
 app.listen(5000, () => console.log('Server running on http://localhost:5000'));
