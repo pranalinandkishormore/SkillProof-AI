@@ -1,0 +1,26 @@
+{
+  "JavaScript": [
+    { "question": "What does '===' check?", "options": ["Value only", "Value and type", "Type only", "Nothing"], "correctIndex": 1 },
+    { "question": "Which keyword declares a constant?", "options": ["var", "let", "const", "define"], "correctIndex": 2 }
+  ],
+  "Python": [
+    { "question": "Which symbol starts a comment in Python?", "options": ["//", "#", "/*", "--"], "correctIndex": 1 },
+    { "question": "What does 'len()' do?", "options": ["Adds items", "Returns length", "Deletes items", "Sorts items"], "correctIndex": 1 }
+  ],
+  "HTML": [
+    { "question": "What does HTML stand for?", "options": ["Hyperlinks and Text Markup Language", "Hypertext Markup Language", "Home Tool Markup Language", "None"], "correctIndex": 1 },
+    { "question": "Which tag creates a hyperlink?", "options": ["<link>", "<a>", "<href>", "<url>"], "correctIndex": 1 }
+  ],
+  "CSS": [
+    { "question": "Which property changes text color?", "options": ["font-color", "text-color", "color", "background-color"], "correctIndex": 2 },
+    { "question": "What does CSS stand for?", "options": ["Cascading Style Sheets", "Computer Style Sheets", "Creative Style System", "None"], "correctIndex": 0 }
+  ],
+  "SQL": [
+    { "question": "Which keyword retrieves data from a table?", "options": ["GET", "SELECT", "FETCH", "PULL"], "correctIndex": 1 },
+    { "question": "Which clause filters rows?", "options": ["FILTER", "WHERE", "HAVING ONLY", "IF"], "correctIndex": 1 }
+  ],
+  "Git": [
+    { "question": "Which command uploads local commits to GitHub?", "options": ["git pull", "git push", "git commit", "git fetch"], "correctIndex": 1 },
+    { "question": "Which command creates a new branch?", "options": ["git branch new", "git checkout -b", "git new-branch", "git create"], "correctIndex": 1 }
+  ]
+}

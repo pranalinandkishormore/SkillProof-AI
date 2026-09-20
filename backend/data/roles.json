@@ -1,0 +1,8 @@
+{
+  "Frontend Developer": ["HTML", "CSS", "JavaScript", "React", "Git"],
+  "Backend Developer": ["Node.js", "Express", "Databases", "REST APIs", "Git"],
+  "Data Analyst": ["Python", "SQL", "Excel", "Statistics", "Data Visualization"],
+  "ML Engineer": ["Python", "Statistics", "ML Algorithms", "Data Handling", "Git"],
+  "Full Stack Developer": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Databases", "Git"],
+  "DevOps Engineer": ["Linux", "Docker", "Git", "CI/CD", "Cloud Basics"]
+}
